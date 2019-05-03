@@ -1,0 +1,3 @@
+How to Find Active Directory Schema Update History by Using PowerShell :
+	https://devblogs.microsoft.com/scripting/how-to-find-active-directory-schema-update-history-by-using-powershell/
+	
