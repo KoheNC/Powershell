@@ -159,3 +159,5 @@
     }
     Write-Host
 }
+
+# Next quote on : https://www.brainyquote.com/quote_of_the_day

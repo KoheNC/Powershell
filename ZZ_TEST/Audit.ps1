@@ -1,1 +1,0 @@
-Get-ADuser -filter *
