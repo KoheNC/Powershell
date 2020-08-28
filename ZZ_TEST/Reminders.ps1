@@ -3,7 +3,7 @@ Function blabla
 	[CmdletBinding()]
 	Param
 	(
-		[Parameter(Mandatory=$false,Position=1)][String]$OU="OU=GLUsers,DC=GENERALE-LOCATION,DC=FR"
+		[Parameter(Mandatory=$false,Position=1)][String]$OU="OU=GGUsers,DC=G-G,DC=FR"
 	)
 	Process
 	{
@@ -15,6 +15,9 @@ Function blabla
 			}
 	}
 }
+
+# Script execution path
+$directoryPath = Split-Path $MyInvocation.MyCommand.Path
 
 <#
 	return $list
