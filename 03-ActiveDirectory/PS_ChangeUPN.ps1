@@ -1,7 +1,7 @@
-# Change UPN for all users in OPAC71 forest
+# Change UPN for all users in yyy.zzzz forest
 $i=0
 
-$users = Get-ADUser -filter * -Properties mail -SearchBase "OU=opac71,DC=opac71,DC=local"
+$users = Get-ADUser -filter * -Properties mail -SearchBase "OU=xxx,DC=yyy,DC=zzzz"
 
 Foreach($user in $users){
 	$i++
@@ -15,7 +15,7 @@ Foreach($user in $users){
 	else
 	# No mail is there, create UPN based on SAM
 	{
-		$UPN = $user.samaccountname + "@opacsaoneetloire.fr"
+		$UPN = $user.samaccountname + "@monSuperUPN.fr"
 		Set-ADUser $user.SAMAccountName  -UserPrincipalName $UPN
 		Write-Host $i" Setting UPN value from: "$($user.userprincipalname)" to: " $UPN -foregroundcolor Cyan
 	}

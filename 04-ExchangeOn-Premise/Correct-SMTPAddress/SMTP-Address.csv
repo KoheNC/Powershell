@@ -1,0 +1,3 @@
+﻿samaccountname;userprincipalname;mail;ProxyAddresses
+j.bon;j.bon@languedoc-mutualite.fr;j.bon@languedoc-mutualite.fr;SMTP:j.bon@languedoc-mutualite.fr
+h.taugranpie;h.taugranpie@languedoc-mutualite.fr;h.taugranpie@languedoc-mutualite.fr;SMTP:h.taugranpie@languedoc-mutualite.fr,smtp:taugranpie@languedoc-mutualite.fr,smtp:test@languedoc-mutualite.fr

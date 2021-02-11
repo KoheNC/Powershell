@@ -16,6 +16,23 @@ Function blabla
 	}
 }
 
+#The difference is that module was written by folks who don't handle errors correctly, so it doesn't respect the error preferences it supposedly supports. Similar issues in portions of the AD modules.
+
+#The only good way to work with that where you need to catch the error is to use the global ErrorActionPreference variable -- but you have to put it back how you found it when you're done.
+
+try {
+    $OldPref = $global:ErrorActionPreference
+    $global:ErrorActionPreference = 'Stop'
+    Get-Mailbox "bogus.user"
+}
+catch {
+    Write-Host "It was caught"
+}
+finally {
+    $global:ErrorActionPreference = $OldPref
+}
+
+
 # Script execution path
 $directoryPath = Split-Path $MyInvocation.MyCommand.Path
 
