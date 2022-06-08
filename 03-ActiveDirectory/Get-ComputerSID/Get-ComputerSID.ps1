@@ -1,3 +1,11 @@
+$computers = Import-Csv -Path .\computer.csv -Delimiter ';'
+ForEach($computer in $computers){
+    $name = "\\"+ $computer.name
+    .\psgetsid.exe $name | Out-File .\results.txt -Append
+}
+
+## Autre methode
+<#
 $Error.Clear()
 Clear-Host
  
@@ -34,3 +42,4 @@ if ($ADcomputers.Count -gt 0)
 }
  
 $computerList | Group-Object -Property LocalSID | Format-Table
+#>
