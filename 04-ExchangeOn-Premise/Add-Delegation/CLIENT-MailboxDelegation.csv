@@ -1,0 +1,19 @@
+Identity;IdentityPrimarySmtpAddressDYN;TargetName;TargetPrimarySmtpAddressDYN;UserOrGroup;AccessRights;SendAs;SendOnBehalf
+Magasin Domessin;mcimagdomessin@example.com;Estelle Gaillard Bizollon;ebizollon@example.com;User;FullAccess;TRUE;
+Magasin Domessin;mcimagdomessin@example.com;Jean Luc Gardien;JLGardien@example.com;User;FullAccess;TRUE;
+Magasin Domessin;mcimagdomessin@example.com;Maryse Chavet;mchavet@example.com;User;FullAccess;TRUE;
+Magasin Domessin;mcimagdomessin@example.com;Nadine Musy;nmusy@example.com;User;FullAccess;TRUE;
+Info Allemagne;info.de@example.com;Fabrice Pont;FPont@example.com;User;FullAccess;TRUE;
+Info Allemagne;info.de@example.com;Pascale Chateau;pchateau@example.com;User;FullAccess;TRUE;
+Comité Entreprise STP;ce-69@example.com;Claudine Gerland;cgerland@example.com;User;FullAccess;TRUE;
+Comité Entreprise STP;ce-69@example.com;Cecile DeSanta;cdesanta@example.com;User;FullAccess;TRUE;
+Labo Qmtcasto;Qmtcasto@example.com;Emilie Jean;ejean@example.com;User;FullAccess;TRUE;
+Labo Qmtcasto;Qmtcasto@example.com;Eve Riou;eriou@example.com;User;FullAccess;TRUE;
+Présence F;FPresence@example.com;Gwenaelle Tadeus;GTadeus@example.com;User;FullAccess;TRUE;
+Présence F;FPresence@example.com;Nadège Bernard;NBernard@example.com;User;FullAccess;TRUE;
+Présence F;FPresence@example.com;Sylvia Cebada;SCebada@example.com;User;FullAccess;TRUE;
+Recrutement RH;recrutement@example.com;Christelle Roux;CRoux@example.com;User;FullAccess;TRUE;
+Recrutement RH;recrutement@example.com;Mélanie Saez;msaez@example.com;User;FullAccess;TRUE;
+Recrutement RH;recrutement@example.com;Pascal Basque;PBasque@example.com;User;FullAccess;TRUE;
+Info UK;Info.UK@example.com;Cédric Faure;cfaure@example.com;User;FullAccess;TRUE;
+Info UK;Info.UK@example.com;AdV Export;Export@example.com;Group;FullAccess;TRUE;

@@ -15,7 +15,7 @@ Foreach($user in $users){
 	<#else
 	# No mail is there, create UPN based on SAM
 	{
-		$UPN = $user.samaccountname + "@opacsaoneetloire.fr"
+		$UPN = $user.samaccountname + "@example.com"
 		Set-ADUser $user.SAMAccountName  -UserPrincipalName $UPN
 		Write-Host $i" Setting UPN value from: "$($user.userprincipalname)" to: " $UPN -foregroundcolor Cyan
 	}

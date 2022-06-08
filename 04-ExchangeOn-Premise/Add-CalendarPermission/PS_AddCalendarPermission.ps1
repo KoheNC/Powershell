@@ -3,7 +3,7 @@
 #C:\Scripts\Connect_365.ps1
 $compteur = 0
 
-$CalendarPermissionReport = import-csv -Path "E:\Mes documents\OwnCloud AVA6 LYON\Partenaires\DELL\BLANCHON\Workdir\Scripts\Add-CalendarPermission\CalendarPermission.csv" -Delimiter ';' -Encoding UTF8
+$CalendarPermissionReport = import-csv -Path ".\CalendarPermission.csv" -Delimiter ';' -Encoding UTF8
 Foreach ($BAL in $CalendarPermissionReport){
 	$compteur +=1
 	

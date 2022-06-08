@@ -1,5 +1,5 @@
 #######################################################################
-#Script de changement d'UPN en prenom.nom@gl-events.com
+#Script de changement d'UPN en prenom.nom@example.com
 #
 # 18/07/2016 - Mathieu CROZIER - AVA6
 #
@@ -52,7 +52,7 @@ if ($CONFIRMATION -eq "YES" )
 		$SamAccountName = $user.SamAccountName
 		$UserPrincipalName = $user.UserPrincipalName
 		
-		$UPN = $GivenName + "." + $Surname + '@gl-events.com'
+		$UPN = $GivenName + "." + $Surname + '@example.com'
 
 		$UPN = $UPN -replace 'à', 'a' `
 			      -replace 'ä', 'a' `
@@ -148,7 +148,7 @@ if ($CONFIRMATION -eq "YES" )
 		$SamAccountName = $_.SamAccountName
 		$UserPrincipalName = $_.UserPrincipalName
 		
-		$UPN = $GivenName + "." + $Surname + '@gl-events.com'
+		$UPN = $GivenName + "." + $Surname + '@example.com'
 		
 		$UPN = $UPN -replace 'à', 'a' `
 			      -replace 'ä', 'a' `
