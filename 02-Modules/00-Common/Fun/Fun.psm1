@@ -143,6 +143,8 @@
          
         # Otherwise display the quote
         [String[]]$Words = $Line -Split ' '
+        Write-Host
+        Write-Host
         Foreach ($Word In $Words)
         {
             # Strip any control characters from the word.

@@ -1,7 +1,6 @@
 #Requires -Version 5.0
 using namespace System.Management.Automation
 
-
 Function Write-InformationColored {
 <#
     .SYNOPSIS
@@ -274,4 +273,9 @@ function Get-FileEncoding
     { Write-Output 'UTF7'}
     else
     { Write-Output 'ASCII' }
+}
+
+function Rename-PSHost ([string]$NewHostUIName)
+{
+	$host.ui.RawUI.WindowTitle = $NewHostUIName
 }
